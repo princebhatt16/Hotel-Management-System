@@ -1,9 +1,9 @@
 const nextConfig = {
   reactStrictMode: true,
+  swcMinify: false, 
   publicRuntimeConfig: {
-    // Will be available on both server and client
-    API_BASE_URL: process.env.API_BASE_URL
-  }
+    API_BASE_URL: process.env.API_BASE_URL,
+  },
 };
 
 module.exports = nextConfig;
